@@ -18,15 +18,17 @@ body{
     margin-bottom: 30px;
 }
 ul{
-    list-style: square;
+    list-style: square;   
 }
-h2,
-h1{
+h2{
     color: rgb(84, 160, 196);
     margin-bottom: -10px;
 }
 span{
     font-weight: bold;
+}
+.one{
+    padding-top: 20px;
 }
 .one ul{
     list-style: none;
@@ -44,6 +46,9 @@ li::marker{
 }
 .right{
     float:right;
+}
+.center{
+    text-align: center;
 }
 .eight ul{
     width:45%
